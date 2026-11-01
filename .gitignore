@@ -1,0 +1,12 @@
+# Ambiente virtual: só o projeto Django (Scripts/bdpratico) entra no repositório
+BigData-env/*
+!BigData-env/Scripts/
+BigData-env/Scripts/*
+!BigData-env/Scripts/bdpratico/
+
+# Python
+__pycache__/
+*.pyc
+
+# Banco local (contém usuários e hashes de senha)
+db.sqlite3
