@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Django: bdpratico (runserver)",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "${workspaceFolder}/BigData-env/bin/python",
+      "program": "${workspaceFolder}/BigData-env/Scripts/bdpratico/manage.py",
+      "args": ["runserver"],
+      "cwd": "${workspaceFolder}/BigData-env/Scripts/bdpratico",
+      "django": true,
+      "justMyCode": true
+    }
+  ]
+}
