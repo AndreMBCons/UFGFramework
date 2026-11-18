@@ -6,6 +6,9 @@
       "type": "debugpy",
       "request": "launch",
       "python": "${workspaceFolder}/BigData-env/bin/python",
+      "windows": {
+        "python": "${workspaceFolder}/BigData-env/Scripts/python.exe"
+      },
       "program": "${workspaceFolder}/BigData-env/Scripts/bdpratico/manage.py",
       "args": ["runserver"],
       "cwd": "${workspaceFolder}/BigData-env/Scripts/bdpratico",
